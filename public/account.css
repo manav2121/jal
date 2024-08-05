@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background:white;
+    color:grey;
+    padding: 1em;
+}
+
+nav ul {
+    
+    list-style-type: none;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: grey;
+    text-decoration: none;
+    padding: 1em;
+}
+nav ul li.logo a {
+    padding: 0em;
+}
+
+.navbar-logo {
+    width: 120px; /* Adjust size as needed */
+    height: 100px;
+    margin-right: 20em;
+    
+    
+     
+     
+}
+
+main {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    
+}
+
+.form-container {
+    width: 300px;
+}
+
+.form-box {
+    background: rgb(242, 243, 243);
+    border: 1px solid #0f0f0f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #121212;
+    border-radius: 4px;
+}
+
+.form-box button {
+    background: #0073e6;
+    border: black;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #005bb5;
+}
+
+.form-box p {
+    margin-top: 1em;
+}
+
+.hidden {
+    display: none;
+}
+H2{
+    color: black;
+}

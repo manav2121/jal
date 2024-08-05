@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Jal</title>
+    <link rel="stylesheet" href="cartstyle.css">
+    <link rel="icon" type="image/jpg" href="C:\Users\manav kashyap\OneDrive\Pictures\favicon.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <a href="index.html">
+                        <img src="C:\Users\manav kashyap\OneDrive\Documents\Downloads\j4l.jpg" alt="Jal Logo" class="navbar-logo" width="400" height="200">
+                    </a>
+                </li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="shop.html" target="_self">Shop</a></li>
+                <li><a href="cart.html" target="_self">Cart</a></li>
+                <li><a href="account.html" target="_self">Account</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li class="search-bar">
+                    <form id="search-form">
+                        <input type="text" id="search-query" name="query" placeholder="Search products..." required>
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+               
+               
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart">
+            <h2 class="left-align">Cart</h2>
+            <br>
+            <!-- Add search bar for cart items -->
+            <input type="text" id="cart-search-query" placeholder="Search cart items..." oninput="searchCartItems()">
+            <div class="cart-items">
+                <!-- Cart items will be populated here by JavaScript -->
+            </div>
+            <div class="cart-totals">
+                <p>Subtotal: <span id="cart-subtotal">₹0.00</span></p>
+                <p>Delivery Charge: <span id="delivery-charge">₹0.00</span></p>
+                <p>Total: <span id="cart-total">₹0.00</span></p>
+                <br>
+                <br>
+
+                <button id="checkout-button" onclick="openBillingForm()">checkout</button>
+            </div>
+        </section>
+    </main>
+    <script src="cart.js"></script>
+</body>
+</html>

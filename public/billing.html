@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Information - Jal</title>
+    <link rel="stylesheet" href="cartstyle.css">
+    <link rel="icon" type="image/jpg" href="C:\Users\manav kashyap\OneDrive\Pictures\favicon.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <a href="index.html">
+                        <img src="C:\Users\manav kashyap\OneDrive\Documents\Downloads\j4l.jpg" alt="Jal Logo" class="navbar-logo" width="400" height="200">
+                    </a>
+                </li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="shop.html" target="_self">Shop</a></li>
+                <li><a href="cart.html" target="_self">Cart</a></li>
+                <li><a href="account.html" target="_self">Account</a></li>
+                <li><a href="index.html#contact" >Contact</a></li>
+                <li class="search-bar">
+                    <form id="search-form">
+                        <input type="text" id="search-query" name="query" placeholder="Search products..." required>
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="billing-form">
+            <h1>Billing</h1>
+            <form id="billing-form" class="contact-form">
+                <input type="text" id="first-name" name="first-name" placeholder="Full Name*" required>
+                <input type="text" id="phone" name="phone" placeholder="Phone*" required>
+                <input type="email" id="email" name="email" placeholder="Email*" required>
+                <input type="text" id="country" name="country" placeholder="Delivery Location*" required>
+                <textarea id="order-notes" name="order-notes" rows="5" placeholder="Message"></textarea>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="bill.js"></script>
+</body>
+</html>

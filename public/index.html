@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jal - Water Delivery</title>
+    
+
+
+
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/jpg" href="C:\Users\manav kashyap\OneDrive\Pictures\favicon.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <a href="index.html">
+                        <img src="C:\Users\manav kashyap\OneDrive\Documents\Downloads\j4l.jpg" alt="Jal Logo" class="navbar-logo" width="400" height="200">
+                    </a>
+                </li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="shop.html" target="_self">Shop</a></li>
+                <li> <a href="cart.html" target="_self">Cart<span id="cart-badge" class="badge">0</span></a>
+                </li>
+                <li><a href="account.html" target="_self">Account</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li class="search-bar">
+                    <form id="search-form">
+                        <input type="text" id="search-query" name="query" placeholder="Search products..." required>
+                        <button type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home manav" id="home">
+            <h1>Jal - your water buddy</h1>
+            <h4>Browse – Order – Get Delivered</H4>
+            <img src="C:\Users\manav kashyap\OneDrive\Documents\Downloads\jal home.png" alt="jal" width="1300" height="400">
+        </section>
+       <h3>Why Jal <h3>
+        
+       <h4>Most hassle-free bottled water delivery service </h4> 
+
+<!--
+<ul>
+    <li>
+       <h4>There's no need to go after local vendors anymore. <br> We deliver your favorite water brands right to your doorstep every day from 8 am to 8 pm.
+
+       </h4>
+
+
+
+    </li>
+    </ul>
+-->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions or feedback?</p>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Name*" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone*">
+                <input type="email" id="email" name="email" placeholder="Email*" required>
+                <textarea id="message" name="message" rows="10" placeholder="Message*" required></textarea>
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
